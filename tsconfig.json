@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "types": [
+      "vite/client"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "ic:backend": [
+        ".dfx/local/canisters/backend/backend.js"
+      ],
+      "ic:backend/types": [
+        ".dfx/local/canisters/backend/backend.d.ts"
+      ]
+    }
+  },
+  "include": [
+    "./src",
+    "global.d.ts"
+  ]
+}

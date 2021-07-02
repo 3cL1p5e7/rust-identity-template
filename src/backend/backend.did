@@ -1,0 +1,5 @@
+service : {
+  "echo": (text) -> (text) query;
+  "get_principal": () -> (principal) query;
+  "get_canister_principal": () -> (principal) query;
+}

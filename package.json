@@ -1,0 +1,35 @@
+{
+  "name": "rust-identity-template",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env LOCAL_IDENTITY_CANISTER_PRINCIPAL=$(dfx canister id internet_identity) vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "watch": "ic-dfx-watch"
+  },
+  "dependencies": {
+    "@dfinity/agent": "^0.8.9",
+    "@dfinity/auth-client": "^0.8.9",
+    "@dfinity/authentication": "^0.8.9",
+    "@dfinity/identity": "^0.8.9",
+    "mobx": "^6.0.3",
+    "mobx-react": "^7.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "5.1.2",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/styled-components": "^5.1.4",
+    "@vitejs/plugin-react-refresh": "^1.3.2",
+    "assert": "^2.0.0",
+    "cross-env": "^7.0.3",
+    "ic-dfx-utils": "^0.0.14",
+    "typescript": "^4.2.4",
+    "vite": "^2.3.2"
+  }
+}
