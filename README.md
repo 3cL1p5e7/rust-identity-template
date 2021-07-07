@@ -1,5 +1,9 @@
 # Rust + Typescript + Internet Identity template example. Powered by [Dfinity](https://dfinity.org/)
 
+This repository is a customized example for Dfinity, Typescript and Rust development. Not quite optimal, not quite pretty, but working. Just take and use.
+
+You can easily deploy a local network and log in through the Internet identity.
+
 Special thanks to [Dfinity/CanCan](https://github.com/dfinity/cancan)
 
 ## Quickstart
